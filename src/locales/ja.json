@@ -1,0 +1,15 @@
+{
+  "hello-world": "ハローワールド！",
+  "navigation": {
+    "home": "ホーム",
+    "about": "アバウト"
+  },
+  "about": {
+    "title": "アバウト",
+    "description": "これは概要ページです。"
+  },
+  "home": {
+    "title": "ホーム",
+    "description": "これはホームページです。"
+  }
+}

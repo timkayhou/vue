@@ -1,5 +1,5 @@
 <template>
-  <hello-world msg="Hello World!" />
+  <hello-world :msg="$t('hello-world')" />
 </template>
 
 <script lang="ts">
