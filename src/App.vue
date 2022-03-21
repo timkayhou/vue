@@ -1,10 +1,15 @@
 <template>
   <v-app>
     <v-main>
-      <nav>
-        <router-link to="/">{{ $t("navigation.home") }}</router-link> |
-        <router-link to="/about">{{ $t("navigation.about") }}</router-link>
-      </nav>
+      <v-app-bar elevation="1">
+        <nav>
+          <router-link to="/">
+            {{ $t("navigation.home") }}
+          </router-link>
+          |
+          <router-link to="/about">{{ $t("navigation.about") }}</router-link>
+        </nav>
+      </v-app-bar>
       <router-view />
     </v-main>
   </v-app>
@@ -17,9 +22,7 @@ export default defineComponent({
   name: "App",
 
   data() {
-    return {
-      //
-    };
+    return {};
   },
 });
 </script>
