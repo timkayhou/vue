@@ -4,10 +4,10 @@
       <v-app-bar elevation="1">
         <nav>
           <router-link to="/">
-            {{ $t("navigation.home") }}
+            {{ $t('navigation.home') }}
           </router-link>
           |
-          <router-link to="/about">{{ $t("navigation.about") }}</router-link>
+          <router-link to="/about">{{ $t('navigation.about') }}</router-link>
         </nav>
       </v-app-bar>
       <router-view />
@@ -16,15 +16,15 @@
 </template>
 
 <script lang="ts">
-import { defineComponent } from "vue";
+import { defineComponent } from 'vue'
 
 export default defineComponent({
-  name: "App",
+  name: 'App',
 
   data() {
-    return {};
-  },
-});
+    return {}
+  }
+})
 </script>
 <style lang="scss">
 #app {

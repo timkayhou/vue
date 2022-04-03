@@ -1,23 +1,23 @@
-import { createRouter, createWebHistory, RouteRecordRaw } from "vue-router";
-import AboutView from "../views/AboutView.vue";
-import HomeView from "../views/HomeView.vue";
+import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router'
+import AboutView from '../views/AboutView.vue'
+import HomeView from '../views/HomeView.vue'
 
 const routes: Array<RouteRecordRaw> = [
   {
-    path: "/",
-    name: "home",
-    component: HomeView,
+    path: '/',
+    name: 'home',
+    component: HomeView
   },
   {
-    path: "/about",
-    name: "about",
-    component: AboutView,
-  },
-];
+    path: '/about',
+    name: 'about',
+    component: AboutView
+  }
+]
 
 const router = createRouter({
   history: createWebHistory(process.env.BASE_URL),
-  routes,
-});
+  routes
+})
 
-export default router;
+export default router
